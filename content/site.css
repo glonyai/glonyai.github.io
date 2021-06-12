@@ -115,6 +115,9 @@ and (max-device-width: 600px)
   .slider-font-body{
     font-size: 2.5em;
   }
+  .slide-button {
+    font-size: 2em;
+  }
 }
 
 /* mobile only styles when the device is 0-600px in maximum width */
@@ -130,5 +133,8 @@ and (max-device-width: 1000px)
   }
   .slider-font-body{
     font-size: 2.5em;
+  }
+  .slide-button {
+    font-size: 2em;
   }
  }
