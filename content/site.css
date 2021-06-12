@@ -102,3 +102,33 @@ html, body {
         height: 100%;
         object-fit: cover;
       }
+
+      @media only screen 
+and (max-device-width: 600px)
+ { 
+   body{
+     font-size: 2em;
+   }
+  .slider-font-header{
+    font-size: 3.5em;
+  }
+  .slider-font-body{
+    font-size: 2.5em;
+  }
+}
+
+/* mobile only styles when the device is 0-600px in maximum width */
+
+@media only screen 
+and (max-device-width: 1000px)
+{ 
+  body{
+    font-size: 2em;
+  }
+  .slider-font-header{
+    font-size: 3.5em;
+  }
+  .slider-font-body{
+    font-size: 2.5em;
+  }
+ }
